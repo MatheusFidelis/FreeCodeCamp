@@ -6,16 +6,15 @@ body {
     padding: 20px;
 }
 
-footer {
-    border: 5px solid red;
-}
-
 h1, h2 {
     font-family: Impact, serif;
+    border: 1px solid blue;
 }
 
 h1 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -28,6 +27,12 @@ h1, h2, p {
 
 .established {
     font-style: italic;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
@@ -65,3 +70,31 @@ hr {
 .bottom-line {
     margin-top: 25px;
 }
+
+
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
+
+  .address {
+    margin-bottom: 5px;
+  }
