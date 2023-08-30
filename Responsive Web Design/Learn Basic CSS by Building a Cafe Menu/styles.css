@@ -1,7 +1,13 @@
 
 body {
+    border: 5px solid white;
     font-family: sans-serif;
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 20px;
+}
+
+footer {
+    border: 5px solid red;
 }
 
 h1, h2 {
@@ -50,5 +56,12 @@ hr {
 }
 
 .item p {
+    font-size: 18px;
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bottom-line {
+    margin-top: 25px;
 }
